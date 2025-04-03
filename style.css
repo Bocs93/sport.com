@@ -1,0 +1,120 @@
+.body{
+    background-color: black;
+}
+
+.header{
+    background-color: white;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    background-color: white;
+    
+}
+.gants{
+    width: 100%;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.87);
+   padding-top: 10%;
+
+}
+
+   
+    
+
+.gant1{
+    
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-self: center;
+    
+}
+
+
+    
+
+.ko{
+    width: 100%;
+    padding: none;
+  
+}
+
+.climax{
+    background-color: white;
+    margin-top: -10%;
+    text-align: center;
+}
+
+.gant2{
+    width: 100%;
+    padding-bottom: 20%;
+    position: relative;
+    
+}
+
+.boutonvente{
+    background-color:black;
+    color: white;
+
+}
+
+.reduc{
+    position: absolute;
+    right: -30px;
+    top: -15px;
+    border-radius: 10px;
+    border: solid black;
+    background-color: black;
+    color: orange;
+    
+}
+
+.newprix{
+    color: orange;
+    right: 25px;
+    margin-left: 80%;
+    margin-top: -20px;
+
+
+}
+
+
+
+.un{
+
+  width: 100%
+}
+
+.icone{
+    display: flex;
+   justify-content: space-between;
+    width: 20%;
+}
+
+.lesicones{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content:space-around ;
+    width: 100%;
+}
+    
+.livre{
+   flex-direction: column;
+}
+
+
+    
+
+
+
+@media (min-width: 600px){
+    .gants{
+        
+        display: block;
+        justify-self: center;
+    }
+}
